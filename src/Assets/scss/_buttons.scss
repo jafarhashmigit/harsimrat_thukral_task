@@ -1,0 +1,38 @@
+button {
+  text-transform: none !important;
+}
+
+.btn {
+  padding: 0.15rem 1rem !important;
+  &.btn-sm {
+    width: 46px !important;
+  }
+  &.btn-white {
+    color: $black;
+    background-color: $white;
+    border-radius: 4px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    box-shadow: none;
+    border: none;
+    height: 36px;
+    width: 260px;
+    &:hover {
+      color: $cyan;
+    }
+  }
+  &.btn-black {
+    color: $white;
+    background-color: $black;
+    border-radius: 4px;
+    font-size: 1.15rem;
+    font-weight: 700;
+    box-shadow: none;
+    border: none;
+    height: 36px;
+    width: 260px;
+    &:hover {
+      color: $cyan;
+    }
+  }
+}

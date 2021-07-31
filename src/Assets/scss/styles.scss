@@ -1,0 +1,13 @@
+@import "./variables";
+@import "./header";
+@import "./row";
+@import "./sections";
+@import "./buttons";
+@import "./input";
+.App {
+  font-family: sans-serif;
+}
+
+.ml-2 {
+  margin-left: 20px;
+}
